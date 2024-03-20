@@ -1,6 +1,6 @@
 # SSTIA x Techji Python workshop
 
-This is the repo for 2023 python workshop held both by **SSTIA and [Techji]([TechJI-2023 (github.com)](https://github.com/TechJI-2023))** department in JI.
+This is the repo for 2023 python workshop held both by **SSTIA and TechJI** department in JI.
 
 ## Guideline
 
@@ -11,6 +11,4 @@ This is the repo for 2023 python workshop held both by **SSTIA and [Techji]([Tec
 
 ---
 
-© [TechJI]([TechJI-2023 (github.com)](https://github.com/TechJI-2023))
-
- 
+© [TechJI](https://github.com/TechJI-2023)
