@@ -14,8 +14,9 @@
     ```
 
 - Linux
-  1. 使用包管理器下载
-
+  
+1. 使用包管理器下载
+  
 - Test
 
   在shell中输入`python3 --version`
@@ -67,3 +68,25 @@
     ```
 
     下载vscode jupyter notebook插件
+
+# Makeup
+
+## Conda activate无法使用(win11)
+
+- conda activate失败
+
+  首先确定conda已经添加到环境变量。
+
+  执行`conda init powershell`
+
+  如果出现不能运行的脚本的问题，在管理员模式下打开 PowerShell，并输入以下命令来修改执行策略为 "RemoteSigned"（仅允许运行本地脚本）：`Set-ExecutionPolicy RemoteSigned`
+
+  For macos and linux可以直接`conda init`
+
+- gcc冲突问题
+
+  执行`conda deactivate`(如果失败参见上一条)，然后通过以下指令设置conda自启动为否
+
+  ```bash
+  conda config --set auto_activate_base False
+  ```
